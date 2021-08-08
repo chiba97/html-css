@@ -1,0 +1,17 @@
+.boxes::after{
+	clear: both;
+	display: block;
+	content: "";
+}
+
+.boxes{
+	width: 600px;
+	background-color: yellow;
+	margin: 0 auto;
+}
+.box1{
+	width: 150px;
+	height: 400px;
+	background-color: orange;
+	float: left;
+}
